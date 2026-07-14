@@ -18,6 +18,9 @@ nnoremap <F6> :w<CR>:!g++ -std=c++17 -O2 -Wall % -o %:r && ./%:r<CR>
 
 autocmd BufRead,BufNewFile *.v,*.sv set filetype=verilog
 
+syntax on
+colorscheme retrobox
+
 set hls
 set is
 set cb=unnamed
