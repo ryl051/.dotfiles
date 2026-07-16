@@ -33,6 +33,8 @@ set sw=4
 set si
 set backspace=indent,eol,start
 set mouse=a
+set ignorecase
+set smartcase
 
 inoremap { {}<Left>
 inoremap {<CR> {<CR>}<Esc>O
