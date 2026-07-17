@@ -18,12 +18,13 @@ let mapleader = " "
 nnoremap <F5> :w<CR>:!python3 %<CR>
 nnoremap <F6> :w<CR>:!g++ -std=c++17 -O2 -Wall % -o %:r && ./%:r<CR>
 nnoremap <leader><leader> :Files<CR>
+nnoremap <leader>sg :Rg<CR>
+nnoremap <leader>ss :LspDocumentSymbolSearch<CR>
 nnoremap <leader>e :E<CR>
 nnoremap H :bp<CR>
 nnoremap L :bn<CR>
 
 syntax on
-colorscheme retrobox
 
 set hls
 set is
