@@ -25,6 +25,9 @@ nnoremap H :bp<CR>
 nnoremap L :bn<CR>
 
 syntax on
+set termguicolors
+set background=dark
+colorscheme retrobox
 
 set hls
 set is
